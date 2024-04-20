@@ -1,7 +1,7 @@
 [
     {
       "desc": "Full Stack Event Ticket Platform",
-      "link": "https://github.com/kaane5662/Newsly",
+      "link": "https://github.com/kaane5662/ticketing-platform",
       "name": "SwftT",
       "file": "/projects/SwftT.png",
       "skills": "MongoDB | React | Express | NodeJS | Stripe | JWT | Render"
