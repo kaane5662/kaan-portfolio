@@ -1,0 +1,38 @@
+[
+    {
+      "desc": "Full Stack Event Ticket Platform",
+      "link": "https://github.com/kaane5662/Newsly",
+      "name": "SwftT",
+      "file": "/projects/SwftT.png",
+      "skills": "MongoDB | React | Express | NodeJS | Stripe | JWT | Render"
+    },
+    {
+      "desc": "Full Stack Eccommerce Platform",
+      "link": "https://github.com/kaane5662/Bluecommerce",
+      "name": "Bluecommerce",
+      "file": "/projects/Bluecommerce.png",
+      "skills": "MongoDB | Next.js | Stripe | JWT | Redux.js"
+    },
+    {
+      "desc": "Full Stack Social Media Application",
+      "link": "https://github.com/kaane5662/Trendverse",
+      "name": "Trendverse",
+      "file": "/projects/Trendverse.png",
+      "skills": "PostgreSQL | React | Express | NodeJS | JWT"
+    },
+    {
+      "desc": "Full Stack AI Summarizer Application",
+      "link": "https://github.com/kaane5662/vox-summarizer",
+      "name": "Vox Article Summarizer",
+      "file": "/projects/VoxSummarizer.png",
+      "skills": "Flask | Next.js | AstraDB | Langchain | BeautifulSoup"
+    },
+    {
+        "desc": "Full Stack News Outlet",
+        "link": "https://github.com/kaane5662/Newsly",
+        "name": "Newsly",
+        "file": "/projects/Newsly.png",
+        "skills": "Django | React | SQLite"
+    }
+]
+  
