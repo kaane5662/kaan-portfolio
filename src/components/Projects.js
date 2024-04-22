@@ -25,7 +25,6 @@ export default function Projects(){
     const getProjects = async ()=>{
         let projects = await fetch("/projects.json")
         let projectsData = await projects.json()
-        setPages( Math.floor(projectsData.length / pageLength))
         setProjects(projectsData)
     }
 
@@ -48,34 +47,36 @@ export default function Projects(){
         getProjects()
     },[])
 
+    const handleResize = () => {
+        // do magic for resize
+           let tempPageLength = 2;
+           console.log(window.innerWidth)
+           if(window.innerWidth < 770){
+               tempPageLength = 1
+           }else{
+               tempPageLength = 2
+           }
+           console.log(Projects.length)
+           setPageLength(tempPageLength)
+           setPages( Math.floor(Projects.length / tempPageLength))
+    }
+
+
+
     useEffect(() => {
-  
-        const handleResize = () => {
-         // do magic for resize
-            let tempPageLength = 2;
-            console.log(window.innerWidth)
-            if(window.innerWidth < 770){
-                tempPageLength = 1
-            }else{
-                tempPageLength = 2
-            }
-            setPageLength(tempPageLength)
-            setPages( Math.floor(Projects.length / tempPageLength))
-        }
-        
+        handleResize()
         window.addEventListener('resize', handleResize);
-        
         return () => {
          window.removeEventListener('resize', handleResize);
         };
         
-    }, []);
+    }, [Projects]);
 
     return (
-        <div name = "Projects" className=" px-28 max-md:px-4 py-8 text-secondary font-montserrat min-h-screen flex-col justify-center items-center flex">
+        <div name = "Projects" className=" px-28 max-md:px-2 py-8 text-secondary font-montserrat min-h-screen flex-col justify-center items-center flex gap-8">
             <div className="flex justify-between w-[100%] items-center">
-                <h4 onClick={()=>switchIndex(-1)} className=" p-1 h-fit px-3 rounded-full text-primary bg-complementary hover:scale-105 duration-300 cursor-pointer hover:bg-secondary text-2xl max-md:text-lg font-bold" >{"<"}</h4>
-                <h1 className=" text-5xl font-bold max-md:text-3xl text-center">Project Showcase</h1>
+                <h4 onClick={()=>switchIndex(-1)} className=" p-1 h-fit px-3 rounded-full text-primary bg-complementary hover:scale-105 duration-300 cursor-pointer hover:bg-secondary text-2xl max-md:text-lg font-bold" >{"<"}</h4>   
+                <h1 className=" text-5xl font-bold max-md:text-3xl text-center w-[50%]">Project Showcase</h1>
                 <h4 onClick={()=>switchIndex(1)} className=" p-1 h-fit px-3 rounded-full text-primary bg-complementary hover:scale-105 duration-300 hover:bg-secondary cursor-pointer text-2xl max-md:text-lg font-bold" >{">"}</h4>
 
             </div>
@@ -90,7 +91,7 @@ export default function Projects(){
                   duration: .5,
                   ease: 'easeInOut'
                 }} 
-            className="my-16 grid grid-cols-2 max-md:grid-cols-1 gap-8 overflow-hidden    ">
+            className=" grid grid-cols-2 max-md:grid-cols-1 gap-8 overflow-hidden relative   ">
                 {Projects.slice(page*pageLength, page*pageLength+pageLength).map((project, index)=>{
                     return(
                         <ProjectCard key={index} skills={project.skills} link = {project.link} name = {project.name} desc={project.desc} file= {project.file}></ProjectCard>
@@ -98,16 +99,14 @@ export default function Projects(){
                 })}
 
                     
+                
                     
                     
                 </motion.div>
             </AnimatePresence>
 
             <div className = "flex gap-8 justify-center">{renderDots()}</div>
-            {/* <div className="flex gap-8 justify-center self-center">
-                <FontAwesomeIcon onClick={()=>switchIndex(-1)} className=" p-3 rounded-md text-primary bg-complementary hover:scale-105 duration-300 cursor-pointer" icon={faArrowLeft}></FontAwesomeIcon>
-                <FontAwesomeIcon onClick={()=>switchIndex(1)} className=" p-3 rounded-md text-primary bg-complementary hover:scale-105 duration-300 cursor-pointer" icon={faArrowRight}></FontAwesomeIcon>
-            </div> */}
+            
 
         </div>
 

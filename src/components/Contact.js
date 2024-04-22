@@ -24,7 +24,7 @@ export default function Contact(){
         viewport={{ once: false }}
         name="Contact" className="px-28 py-8 max-md:px-4 text-secondary font-montserrat min-h-screen flex-col justify-center items-center flex ">
                 
-                <form method="POST" action="https://getform.io/f/548dbc0e-7468-43a3-b01a-5e061b3c3c1c" className="justify-center items-center grid grid-cols-2 w-[80%] max-md:w-[100%] gap-4 max-md:gap-2">
+                <form method="POST" action="https://getform.io/f/548dbc0e-7468-43a3-b01a-5e061b3c3c1c" className="justify-center items-center grid grid-cols-2 w-[80%] max-md:w-[100%] gap-4 max-md:gap-2 max-md:gap-y-4">
                     <h1 className=" text-5xl font-bold col-span-2 text-center max-md:text-3xl">Get In Touch</h1>
                     <div className="w-[100%] flex flex-col gap-2">
                         <h3 className="text-sm">Name</h3>
