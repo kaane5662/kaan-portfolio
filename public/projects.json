@@ -1,5 +1,19 @@
 [
     {
+      "desc": "Web3 Decentralized Auction Platform",
+      "link": "https://github.com/kaane5662/DeAuction",
+      "name": "DeAuction",
+      "file": "/projects/DeAuction.png",
+      "skills": ".NET | Solidity | Hardhat | PostgreSQL | React | Docker | AWS "
+    },
+    {
+      "desc": "SaaS AI Research Paper Generator",
+      "link": "https://github.com/kaane5662/SwfitSci",
+      "name": "SwiftSci",
+      "file": "/projects/SwiftSci.png",
+      "skills": "Flask | OpenAi | Langhchain | NextJS | Docker | Selenium"
+    },
+    {
       "desc": "Full Stack Event Ticket Platform",
       "link": "https://github.com/kaane5662/ticketing-platform",
       "name": "SwftT",
@@ -18,7 +32,7 @@
       "link": "https://github.com/kaane5662/Trendverse",
       "name": "Trendverse",
       "file": "/projects/Trendverse.png",
-      "skills": "PostgreSQL | React | Express | NodeJS | JWT"
+      "skills": "PostgreSQL | React | Express | NodeJS | AWS | Redis"
     },
     {
       "desc": "Full Stack AI Summarizer Application",
