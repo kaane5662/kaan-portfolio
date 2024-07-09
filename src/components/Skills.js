@@ -29,8 +29,8 @@ export default function Skills(){
             viewport={{ once: false }}
             className="grid grid-cols-3 max-md:grid-cols-1 ">
                 <SkillCard desc={"Expert in designing engaging, animated, mobile responsive UI screens with SEO"} skill={"Frontend"} tools={"React | Next.js | HTML/CSS | Redux.js | TailwindCSS"} icon={faDisplay}></SkillCard>
-                <SkillCard desc={"Proficient in creating scalable, structured, and secure REST APIs for HTTP request handling and protecting user data"} skill={"Backend"} tools={"NodeJS | Express.js | Django | Next.js | Flask | JWT | OAuth"} icon={faServer}></SkillCard>
-                <SkillCard desc={"Expert in creating advanced queries and composing schemas or tables for efficient storage and retrieval"} skill={"Databases"} tools={"MongoDB | Firebase | PostgreSQL | AstraDB "} icon={faDatabase }></SkillCard>
+                <SkillCard desc={"Proficient in creating scalable, structured, and secure REST APIs for HTTP request handling and protecting user data"} skill={"Backend"} tools={".NET | NodeJS | Express.js | Django | Next.js | Flask | JWT | OAuth"} icon={faServer}></SkillCard>
+                <SkillCard desc={"Expert in creating advanced queries and composing schemas or tables for efficient storage and retrieval"} skill={"Databases"} tools={"MongoDB | Firebase | PostgreSQL | AstraDB | Redis "} icon={faDatabase }></SkillCard>
                 <SkillCard desc={"Expert in implementing secure marketplace systems or payment processing solutions"} skill={"Payment"} tools={"Stripe | Stripe Connect "} icon={faBank }></SkillCard>
                 <SkillCard desc={"Proficient in scraping data and integrating AI solutions to enhance system intelligence and functionality using LLMs or machine learning models"} skill={"AI/ML | Web Scraping | Automation"} tools={"OpenAI | Langchain | SciKit-Learn | Pandas | Selenium | BeautifulSoup | Scrapy"} icon={faRobot    }></SkillCard>
                 <SkillCard desc={"Proficient in utilizing cloud based hosting services for scalability and efficiency"} skill={"Deployment"} tools={"AWS | Render | Netlify | Vercel"} icon={faGears    }></SkillCard>
