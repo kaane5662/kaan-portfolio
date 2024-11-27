@@ -30,7 +30,7 @@ export default function Intro(){
                 <div className="flex items-center gap-8 max-md:w-[100%]">
 
                     <Link to = "Projects" smooth = {true} duration={500}  className=" justify-center flex items-center hover:cursor-pointer rounded-md border-2 border-solid border-complementary  text-md font-semibold duration-300 hover:scale-110 p-4 px-8 max-md:py-1">View Projects</Link>
-                    <a href="https://drive.google.com/file/d/1EGPnDsOAT6ZLsFlneiB2IOOuO2uYYM8Z/view?usp=sharing"  className=" justify-center flex items-center hover:cursor-pointer rounded-md bg-complementary text-md font-semibold hover:bg-complementary  duration-300 hover:scale-110 p-4 px-8 text-primary max-md:py-2">Download CV</a>
+                    <a href="http://github.com/kaane5662"  className=" justify-center flex items-center hover:cursor-pointer rounded-md bg-complementary text-md font-semibold hover:bg-complementary  duration-300 hover:scale-110 p-4 px-8 text-primary max-md:py-2">View Github</a>
                 </div>
             </div>
             <div className=" p-8 w-[50%] flex justify-center">

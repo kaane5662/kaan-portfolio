@@ -1,24 +1,31 @@
 [
     {
-      "desc": "Web3 Decentralized Auction Platform",
-      "link": "https://github.com/kaane5662/DeAuction",
-      "name": "DeAuction",
-      "file": "/projects/DeAuction.png",
-      "skills": ".NET | Solidity | Hardhat | PostgreSQL | React | Docker | AWS "
+      "desc": "Technical Cofounder Matching Platform Using AI with Video Chat",
+      "link": "https://github.com/kaane5662/VideoChatApp",
+      "name": "TechMatch",
+      "file": "/projects/VideoChatApp.png",
+      "skills": ".NET | Next.js | PostgreSQL | WebRTC | SignalR | AWS | OAuth"
     },
     {
-      "desc": "SaaS AI Research Paper Generator",
+      "desc": "AI Research Writing Assistant and Generator",
       "link": "https://github.com/kaane5662/SwfitSci",
       "name": "SwiftSci",
       "file": "/projects/SwiftSci.png",
       "skills": "Flask | OpenAi | Langhchain | NextJS | Docker | Selenium"
     },
     {
-      "desc": "Full Stack Event Ticket Platform",
+      "desc": "Event Ticketing Platform for Small Hosts",
       "link": "https://github.com/kaane5662/ticketing-platform",
       "name": "SwftT",
       "file": "/projects/SwftT.png",
       "skills": "MongoDB | React | Express | NodeJS | Stripe | JWT | Render"
+    },
+    {
+      "desc": "Web3 Decentralized Auction Platform",
+      "link": "https://github.com/kaane5662/DeAuction",
+      "name": "DeAuction",
+      "file": "/projects/DeAuction.png",
+      "skills": ".NET | Solidity | Hardhat | PostgreSQL | React | Docker | AWS "
     },
     {
       "desc": "Full Stack Eccommerce Platform",
